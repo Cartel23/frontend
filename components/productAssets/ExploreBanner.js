@@ -73,12 +73,16 @@ export default class ExploreBanner extends React.Component {
                   className="font-size-display3 font-weight-light mb-4"
                   style={{ maxWidth: '20rem' }}
                 >
-                  A new shopping experience
+                  Die neue &quot;All Colors Are Beautiful&quot; Collection
+                </p>
+                <p>
+                Unsere neue Kollektion verspätet sich einwenig auf unserem Onlineshop. <br/>
+                Wenn du jedoch jetzt schon bestellen möchtest schreib uns direkt auf Instagram (Cartel.23).
                 </p>
                 <div className="d-flex">
-                  <Link href="/collection">
+                  <Link href={'https://www.instagram.com/cartel.23/'}>
                     <a className="d-flex py-3 align-items-center font-color-black borderbottom border-color-black">
-                      <p className="mr-3">Explore products</p>
+                      <p className="mr-3">Zur Vorbestellung</p>
                       <img src="/icon/arrow-long-right.svg" />
                     </a>
                   </Link>

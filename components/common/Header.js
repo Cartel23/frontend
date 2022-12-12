@@ -28,13 +28,17 @@ const mobileMenuLinks = [
     link: '/'
   },
   {
-    name: 'Shop',
-    link: '/collection'
+    name: 'Men',
+    link: '/shop/men'
   },
   {
-    name: 'About',
-    link: '/about'
-  }
+    name: 'Women',
+    link: '/shop/women'
+  },
+  {
+    name: 'Accessories',
+    link: '/shop/accessories'
+  },
 ];
 
 class Header extends Component {
@@ -184,11 +188,17 @@ class Header extends Component {
           }`}
         >
           <div className="d-none d-sm-flex">
-            <Link href="/collection">
-              <a className="mr-4 font-color-black">Shop</a>
+            <Link href="/">
+              <a className="mr-4 font-color-black">Home</a>
             </Link>
-            <Link href="/about">
-              <a className="font-color-black">About</a>
+            <Link href="/collection#men">
+              <a className="mr-4 font-color-black">Men</a>
+            </Link>
+            <Link href="/collection#women">
+              <a className="mr-4 font-color-black">Women</a>
+            </Link>
+            <Link href="/collection#accessories">
+              <a className="font-color-black">Accessories</a>
             </Link>
           </div>
           <div className="logo-container">
@@ -209,7 +219,6 @@ class Header extends Component {
             </Link>
           </div>
           <div className="d-flex">
-            { process.browser && this.renderLoginLogout() }
             <div
               className="position-relative cursor-pointer"
               onClick={this.toggleCart}

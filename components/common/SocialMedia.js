@@ -2,26 +2,26 @@ import React from 'react';
 import Link from 'next/link';
 
 const imagesInfo = [
-  {
+/*  {
     image: '/images/insta/1.png',
     translateRatio: -50
-  },
+  }, */
   {
-    image: '/images/insta/2.jpg',
+    image: '/images/insta/insta-1.jpg',
     translateRatio: 30
   },
   {
-    image: '/images/insta/3.jpg',
+    image: '/images/insta/insta-2.jpg',
     translateRatio: 0
   },
   {
-    image: '/images/insta/4.jpg',
+    image: '/images/insta/insta-3.jpg',
     translateRatio: -20
   },
-  {
+/*  {
     image: '/images/insta/5.jpg',
     translateRatio: -80
-  }
+  } */
 ];
 
 export default class SocialMedia extends React.Component {
@@ -79,7 +79,7 @@ export default class SocialMedia extends React.Component {
                 className="font-size-display1 mb-3"
                 style={{ maxWidth: '26rem' }}
               >
-                Follow us on Instagram for more updates
+                Folge uns auf Instagram für die neusten News
               </p>
               <div className="d-flex">
                 <Link href="/about">
