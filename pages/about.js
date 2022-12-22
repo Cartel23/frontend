@@ -34,10 +34,10 @@ const About = () => (
         </div>
       </div>
 
-      <div className='d-flex justify-content-center h-100'>
+      {/*}<div className='d-flex justify-content-center h-100'>
         <h1 className='font-size-header mb-4'>NEUESTE NEWS</h1>
       </div>
-      {/* Row 2 */}
+      {/* Row 2}
       <div className="row">
         <div className="col-12 col-lg-6">
           <div className="about-image h-100">
@@ -69,7 +69,7 @@ const About = () => (
         </div>
       </div>
 
-      {/* Row 3 */}
+      {/* Row 3 }
       <div className="row">
         <div className="col-12 col-md-10 col-lg-6 offset-md-1 offset-lg-0 row-content">
           <div className="h-100 d-flex flex-column justify-content-center py-5 px-4 px-sm-5">
@@ -101,7 +101,7 @@ const About = () => (
         </div>
       </div>
 
-      {/* Row 4 */}
+      {/* Row 4 }
       <div className="row">
         <div className="col-12 col-lg-6">
           <div className="about-image h-100">
@@ -132,6 +132,7 @@ const About = () => (
           </div>
         </div>
       </div>
+      {*/}
     </div>
     <Footer />
   </Root>
