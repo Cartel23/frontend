@@ -50,7 +50,6 @@ class CheckoutPage extends Component {
         'shipping[postal_zip_code]': null
       },
 
-      discountCode: 'CUSTOMCOMMERCE',
 
       selectedGateway: 'test_gateway',
       loading: false,
@@ -628,21 +627,6 @@ class CheckoutPage extends Component {
                             </Dropdown>
                           </label>
                         </div>
-                      </div>
-                      <div
-                        onClick={this.toggleNewsletter}
-                        className="d-flex mb-4 flex-nowrap cursor-pointer"
-                      >
-                        <Checkbox
-                          onClick={this.toggleNewsletter}
-                          checked={this.state.receiveNewsletter}
-                          className="mr-3"
-                        />
-                        <p>
-                          Receive our news, restocking, good plans and news in your mailbox!
-                          Rest assured, you will not be flooded, we only send one newsletter
-                          per month approximately 🙂
-                        </p>
                       </div>
                       <label className="w-100 mb-3">
                         <p className="mb-1 font-size-caption font-color-light">
