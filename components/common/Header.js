@@ -29,15 +29,15 @@ const mobileMenuLinks = [
   },
   {
     name: 'Men',
-    link: '/shop/men'
+    link: '/collection#men'
   },
   {
     name: 'Women',
-    link: '/shop/women'
+    link: '/collection#women'
   },
   {
     name: 'Accessories',
-    link: '/shop/accessories'
+    link: '/collection#accessories'
   },
 ];
 

@@ -8,12 +8,13 @@ export default function HomeBanner() {
         className="font-size-display1 mt-5 text-center mx-auto text-uppercase"
         style={{ maxWidth: '53rem' }}
       >
-        lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        CARTEL 23 <br/>
+        DIE CHURER MODE
       </p>
       <div className="d-flex align-items-center justify-content-center mt-3 mb-5">
         <Link href="/about">
           <a className="d-flex py-3 align-items-center font-color-black borderbottom border-color-black">
-            <p className="mr-3">Find out more</p>
+            <p className="mr-3">Über uns</p>
             <img src="/icon/arrow-long-right.svg" />
           </a>
         </Link>
