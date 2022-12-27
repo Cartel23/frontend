@@ -101,9 +101,7 @@ export default function Product() {
       </div>
     </div>
 
-    <ClientReview />
     <SuggestedProducts />
-    <ExploreBanner />
     <SocialMedia />
     <Footer />
   </Root>
